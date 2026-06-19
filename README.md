@@ -12,7 +12,7 @@ personal study/summary use.
 
   ```ini
   url=https://univterbuka.kotobee.com/#/login
-  username=055977901@ecampus.ut.ac.id
+  username=NIM@ecampus.ut.ac.id
   password=••••••••
   ```
 
