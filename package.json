@@ -1,0 +1,20 @@
+{
+  "name": "kotobee-ebook-capture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capture Universitas Terbuka (Kotobee) ebooks to Markdown using Playwright.",
+  "type": "commonjs",
+  "bin": {
+    "capture-ebook": "capture-ebook.js"
+  },
+  "scripts": {
+    "start": "node capture-ebook.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}
